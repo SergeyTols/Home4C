@@ -1,7 +1,7 @@
-﻿  int[] array = new int[0];
-  Console.WriteLine("Введите элементы массива. Для завершения введите end: ");
+﻿int[] array = new int[0];
+Console.WriteLine("Введите элементы массива. Для завершения введите end: ");
   
-  while (true)
+while (true)
         {   
             string? num = Console.ReadLine();          
             if(num != "end")
